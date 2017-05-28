@@ -9,17 +9,13 @@
     <name>Komik Matematika</name>
 
     <description>
-        Komik matematika materi statistika untuk kelas XII.
+        Aplikasi komik matematika materi Statistika untuk SMK kelas XII.
     </description>
 
-    <author href="" email="">
+    <author href="http://phonegap.com" email="support@phonegap.com">
         Muhammad Muzacky
     </author>
-	
-	<meta http-equiv="Content-Security-Policy" 
-         content="default-src *; 
-                  style-src * 'self' 'unsafe-inline' 'unsafe-eval'; 
-                  script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
+
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
