@@ -23,7 +23,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<!--
     <script type="text/javascript">
         function init() {
             document.addEventListener("deviceready", startup, false);
@@ -49,10 +49,23 @@
             }
         }
     </script>
+-->
+        <script type="text/javascript">
+            function onLoad()
+                    {
+                          document.addEventListener("deviceready", onDeviceReady, true);
+                    }
+
+                    function exitFromApp()
+                     {
+                        navigator.app.exitApp();
+                     }
+
+        </script>
 
 </head>
 
-<body onload="init()">
+<body onload="onLoad();">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -84,7 +97,7 @@
                         <a href="pages/bantuan.html">Bantuan</a>
                     </li>
                     <li>
-                        <a class="btn btn-danger" id="exitApp">Keluar</a>
+                        <a class="btn btn-danger" id="exitApp" onclick="exitFromApp()">Keluar</a>
                     </li>
                 </ul>
             </div>
