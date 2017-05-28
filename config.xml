@@ -67,11 +67,6 @@
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />
-	
-	<plugin name="cordova-plugin-whitelist" source="npm" spec="1.1.0" />
-	<allow-navigation href="*" />
-	<allow-intent href="*" />
-	<access origin="*" /> <!-- Required for iOS9 -->
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
