@@ -24,9 +24,35 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script type="text/javascript">
+        function init() {
+            document.addEventListener("deviceready", startup, false);
+        }
+        function startup() {
+            console.log("Fungsi Exit App");
+            document.addEventListener("backbutton", doClose, false);
+        }
+        function showExitAlert() {
+            navigator.notification.confirm(
+                'Keluar dari Aplikasi ?',
+                exitApp,
+                'Aplikasi Kita',
+                'Ok,Cancel'
+            );
+        }
+        function exitApp(buttonIndex) {
+            if (buttonIndex == 1) {
+            navigator.app.exitApp();
+            }
+            else {
+                window.close();
+            }
+        }
+    </script>
+
 </head>
 
-<body>
+<body onload="init()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -249,32 +275,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-        function init() {
-            document.addEventListener("deviceready", startup, false);
-        }
-        function startup() {
-            console.log("Fungsi Exit App");
-            document.addEventListener("backbutton", doClose, false);
-        }
-        function showExitAlert() {
-            navigator.notification.confirm(
-                'Keluar dari Aplikasi ?',
-                exitApp,
-                'Aplikasi Kita',
-                'Ok,Cancel'
-            );
-        }
-        function exitApp(buttonIndex) {
-            if (buttonIndex == 1) {
-            navigator.app.exitApp();
-            }
-            else {
-                window.close();
-            }
-        }
-    </script>
 
 </body>
 
