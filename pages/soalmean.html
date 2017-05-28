@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="komik matematika tentang materi statistika">
+    <meta name="author" content="teguh permadi">
+
+    <title>Latihan Soal Mean</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/heroic-features.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Sumber soal: http://bahanbelajarsekolah.blogspot.co.id/2015/05/pembahasan-contoh-soal-nilai-rata-rata.html -->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Komik Matematika</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../pages/katapengantar.html">Kata Pengantar</a>
+                    </li>
+                    <li>
+                        <a href="../pages/profil.html">Profil</a>
+                    </li>
+                    <li>
+                        <a href="../pages/tentang.html">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="../pages/bantuan.html">Bantuan</a>
+                    </li>
+					<li>
+                        <a class="btn btn-danger" onclick="showConfirm()">Keluar</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Latihan Soal Mean</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Page Features -->
+        <div class="row">
+            
+            <form>          
+            <!-- nomor 1 -->  
+            <div id="soal1" class="soal">
+                <p>1. Nilai rata-rata ulangan Fisika dari 10 murid adalah 62. Jika digabungkan dengan nilai 5 murid yang lain ternyata nilai rata-ratanya menjadi 54. Nilai rata-rata dari 5 murid tersebut sama dengan ....</p>
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="a" id="1a">A. 36</label>
+                </div> 
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="b" id="1b">B. 38</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="c" id="1c">C. 42</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="d" id="1d">D. 52</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group1" value="e" id="1e">E. 58</label>   
+                </div>
+            </div>  
+
+            <!-- nomor 2-->  
+            <div id="soal2" class="soal">
+                <p>2. Nilai rata-rata ulangan matemtaika di kelas XII IPA 1 adalah 65. Jika nilai rata-rata murid pria adalah 58 sedangkan nilai rata-rata murid wanita adalah 68, maka perbandingan jumlah pria dan wanita di kelas tersebut adalah .....</p>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="a" id="2a">A. 3 : 7</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="b" id="2b">B. 4 : 6</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="c" id="2c">C. 6 : 3</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="d" id="2d">D. 5 : 5</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="e" id="2e">E. 6 : 4</label>  
+                </div>        
+            </div>  
+
+            <!-- nomor 3-->  
+            <div id="soal3" class="soal">
+                <p>3. Nilai ujian psikotest peserta seleksi pegawai di suatu BUMN diperlihatkan dalam tabel berikut :</p>
+                <table class="table">
+                <tbody>
+                <tr><td>Nilai Ujian</td><td>Frekuensi</td></tr>
+                <tr align="center"><td>4</td><td>4</td></tr>
+                <tr align="center"><td>5</td><td>2</td></tr>
+                <tr align="center"><td>6</td><td>6</td></tr>
+                <tr align="center"><td>7</td><td>8</td></tr>
+                <tr align="center"><td>8</td><td>18</td></tr>
+                <tr align="center"><td>9</td><td>12</td></tr>
+                </tbody>
+                </table>
+                <p>Jika peserta yang dinyatakan lulus hanya peserta yang nilainya lebih besar sama dengan nilai rata-rata, maka banyak peserta yang lulus adalah ....</p>
+                
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="a" id="3a">A. 20 orang</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="b" id="3b">B. 25 orang</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="c" id="3c">C. 28 orang</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="d" id="3d">D. 30 orang</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="e" id="3e">E. 32 orang</label>
+                </div>          
+            </div>
+
+            <!-- nomor 4-->  
+            <div id="soal4" class="soal">
+                <p>4. Di kelas XII IPS 1 terdapat 40 siswa. Nilai rata-rata ujian bahasa mereka 60. Jika dua siswa yang paling rendah nilainya tidak dikutsertakan maka rata-ratanya adalah 61,5 maka nilai terendah di kelas tersebut adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="a" id="4a">A. 28,5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="b" id="4b">B. 30,4</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="c" id="4c">C. 31,5</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="d" id="4d">D. 32,5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="e" id="4e">E. 35,5</label>  
+                </div>        
+            </div>
+
+            <!-- nomor 5-->  
+            <div id="soal5" class="soal">
+                <p>5. Seorang siswa menghitung rata-rata sekelompok bilangan dan hasilnya 60. Ketika dihitung ulang oleh temannya hasilnya 62. Setelah diselediki ternyata ada bilangan yang sebenarnya 80 tetapi terbaca 60 oleh siswa yang pertama. Banyak bilangan dalam kelompok tersebut adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="a" id="5a">A. 30</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="b" id="5b">B. 20</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="c" id="5c">C. 15</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="d" id="5d">D. 10</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="e" id="5e">E. 8</label>          
+                </div>
+            </div>
+            
+            <dir class="tombol-koreksi">
+                <a href="#" onclick="koreksi()" class="btn btn-primary">Koreksi</a>   
+                <a href="#" onclick="ulang()" class="btn btn-default">Ulangi</a>
+            </dir>
+            
+            </form>
+        </div>
+
+        <div></div>
+    
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Muhammad Muzacky 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Modal Skor -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Skor Latihan Soal Mean</h4>
+            </div>
+            <div class="modal-body">
+              <p>Selamat Anda berhasil mendapatkan nilai: <h3><div id="myskor"></div></h3></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Ulangi -->
+    <script type="text/javascript">
+        function ulang(){
+            location.reload();
+        }
+    </script>
+
+    <!-- Koreksi -->
+    <script type="text/javascript">
+        
+        //warna hasil koreksi
+        var soalbenar = "#ccff90";
+        var soalsalah = "#ff80ab";
+        
+        //disable radiogroup
+        function dis1(){
+            document.getElementById('1a').disabled = true;
+            document.getElementById('1b').disabled = true;
+            document.getElementById('1c').disabled = true;
+            document.getElementById('1d').disabled = true;
+            document.getElementById('1e').disabled = true;
+        }        
+
+        function dis2(){
+            document.getElementById('2a').disabled = true;
+            document.getElementById('2b').disabled = true;
+            document.getElementById('2c').disabled = true;
+            document.getElementById('2d').disabled = true;
+            document.getElementById('2e').disabled = true;
+        }
+
+        function dis3(){
+            document.getElementById('3a').disabled = true;
+            document.getElementById('3b').disabled = true;
+            document.getElementById('3c').disabled = true;
+            document.getElementById('3d').disabled = true;
+            document.getElementById('3e').disabled = true;
+        }
+
+        function dis4(){
+            document.getElementById('4a').disabled = true;
+            document.getElementById('4b').disabled = true;
+            document.getElementById('4c').disabled = true;
+            document.getElementById('4d').disabled = true;
+            document.getElementById('4e').disabled = true;
+        }
+
+        function dis5(){
+            document.getElementById('5a').disabled = true;
+            document.getElementById('5b').disabled = true;
+            document.getElementById('5c').disabled = true;
+            document.getElementById('5d').disabled = true;
+            document.getElementById('5e').disabled = true;
+        }
+
+        function koreksi(){
+        // cetak nilai       
+        skor = 0;
+        
+
+        //nomor 1
+        var group1 = document.querySelector('[name="group1"]:checked').value;
+        switch(group1){     
+        case "a" : 
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "b" :
+            document.getElementById('soal1').style.backgroundColor = soalbenar; skor = skor + 1; dis1();
+            break;
+        case "c" :
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "d" :
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "e" :
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+            }
+
+        //nomor 2
+        var group2 = document.querySelector('[name="group2"]:checked').value;
+        switch(group2){     
+        case "a" : 
+            document.getElementById('soal2').style.backgroundColor = soalbenar; skor = skor + 1; dis2();
+            break;
+        case "b" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+        case "c" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+        case "d" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+        case "e" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+            }
+
+        //nomor 3
+        var group3 = document.querySelector('[name="group3"]:checked').value;
+        switch(group3){     
+        case "a" : 
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+        case "b" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+        case "c" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+        case "d" :
+            document.getElementById('soal3').style.backgroundColor = soalbenar; skor = skor + 1; dis3();
+            break;
+        case "e" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+            }
+
+        //nomor 4
+        var group4 = document.querySelector('[name="group4"]:checked').value;
+        switch(group4){     
+        case "a" : 
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+        case "b" :
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+        case "c" :
+            document.getElementById('soal4').style.backgroundColor = soalbenar; skor = skor + 1; dis4();
+            break;
+        case "d" :
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+        case "e" :
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+            }
+
+        //nomor 5
+        var group5 = document.querySelector('[name="group5"]:checked').value;
+        switch(group5){     
+        case "a" : 
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+        case "b" :
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+        case "c" :
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+        case "d" :
+            document.getElementById('soal5').style.backgroundColor = soalbenar; skor = skor + 1; dis5();
+            break;
+        case "e" :
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+            }
+        
+        var skortot = (skor/5)*100;
+        var myskor = document.getElementById('myskor').innerHTML = Math.round(skortot);
+        $("#myModal").modal();
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!-- Kunci: B, A, D, C, D -->

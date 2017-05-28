@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="komik matematika tentang materi statistika">
+    <meta name="author" content="teguh permadi">
+
+    <title>Uji Kompetensi</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/heroic-features.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Sumber soal: http://bahanbelajarsekolah.blogspot.co.id/2015/05/pembahasan-contoh-soal-nilai-rata-rata.html -->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">Komik Matematika</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../pages/katapengantar.html">Kata Pengantar</a>
+                    </li>
+                    <li>
+                        <a href="../pages/profil.html">Profil</a>
+                    </li>
+                    <li>
+                        <a href="../pages/tentang.html">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="../pages/bantuan.html">Bantuan</a>
+                    </li>
+					<li>
+                        <a class="btn btn-danger" onclick="showConfirm()">Keluar</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-13">
+                <h3>Uji Kompetensi</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Page Features -->
+        <div class="row">
+            
+            <form>          
+            <!-- nomor 1 -->  
+            <div id="soal1" class="soal">
+                <p>1. Jika jangkauan dari data terurut: x-1, 2x-1, 3x, 7x-3, 4x+6, 6x+2 adalah 8, maka mediannya adalah</p>
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="a" id="1a">A. 5</label>
+                </div> 
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="b" id="1b">B. 4,5</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="c" id="1c">C. 4</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group1" value="d" id="1d">D. 3</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group1" value="e" id="1e">E. 3,5</label>   
+                </div>
+            </div>  
+
+            <!-- nomor 2-->  
+            <div id="soal2" class="soal">
+                <p>2. Jumlah pencari kerja yang mendaftar di kantor dinas tenaga kerja Kabupaten Malang pada tahun 2003-2013 adalah sebagai berikut.</p>
+                <img class="img-responsive" src="../img/soal2.png">
+                <p>Dari diagram garis tersebut, rata-rata jumlah pencari kerja dari tahun 2003-2013 adalah</p>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="a" id="2a">A. 45</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="b" id="2b">B. 45,4</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="c" id="2c">C. 45,6</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="d" id="2d">D. 46</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group2" value="e" id="2e">E. 48</label>  
+                </div>        
+            </div>  
+
+            <!-- nomor 3-->  
+            <div id="soal3" class="soal">
+                <p>3. Data umur karyawan PT Sarana Utama disajikan dalam tabel berikut.</p>
+                <table class="table">
+                <tbody>
+                <tr><td>Umur</td><td>Frekuensi</td></tr>
+                <tr><td>20-23</td><td>24</td></tr>
+                <tr><td>24-27</td><td>26</td></tr>
+                <tr><td>28-31</td><td>10</td></tr>
+                <tr><td>32-35</td><td>11</td></tr>
+                <tr><td>36-39</td><td>15</td></tr>
+                <tr><td>40-43</td><td>8</td></tr>
+                <tr><td>44-48</td><td>6</td></tr>
+                </tbody>
+                </table>
+                <p>Nilai modus dari data tersebut adalah ...</p>
+                
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="a" id="3a">A. 23,9</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="b" id="3b">B. 23,8</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="c" id="3c">C. 24</label> 
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="d" id="3d">D. 23</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="group3" value="e" id="3e">E. 25</label>
+                </div>          
+            </div>
+
+            <!-- nomor 4-->  
+            <div id="soal4" class="soal">
+                <p>4. Rata-rata skor penilaian kerja dari 39 karyawan PT Sumber Teknik adalah 46. Setelah satu karyawan baru masuk, rata-rata skor penilaian kerja naik menjadi 47. Hasil penilaian karyawan baru tersebut adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="a" id="4a">A. 96</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="b" id="4b">B. 86</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="c" id="4c">C. 76</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="d" id="4d">D. 66</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group4" value="e" id="4e">E. 56</label>  
+                </div>        
+            </div>
+
+            <!-- nomor 5-->  
+            <div id="soal5" class="soal">
+                <p>5. Diketahui data nilai praktik 15 siswa kelas XII Teknik Mesin adalah 80, 70, 85, 65, 75, 90, 70, 80, 60, 55, 70, 90, 75, 70, 75. Modus data tersebut adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="a" id="5a">A. 65</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="b" id="5b">B. 70</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="c" id="5c">C. 75</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="d" id="5d">D. 80</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group5" value="e" id="5e">E. 85</label>          
+                </div>
+            </div>
+            	
+			<!-- nomor 6-->  
+            <div id="soal6" class="soal">
+			<img class="img-responsive" src="../img/soal6.png">
+                <p>6. Jika rataan hitung data dari histogram pada gambar diatas adalah 59 maka nilai P adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group6" value="a" id="6a">A. 13</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group6" value="b" id="6b">B. 11</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group6" value="c" id="6c">C. 10</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group6" value="d" id="6d">D. 9</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group6" value="e" id="6e">E. 8</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 7-->  
+            <div id="soal7" class="soal">
+                <p>7. Data berat badan 20 siswa SMK Bhinneka disajikan dalam tabel berikut.</p>
+				<table class="table">
+					<tr>
+						<td>Berat badan</td>
+						<td>frekuensi</td>
+					</tr>
+					<tr>
+						<td>50-52</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>53-55</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>56-58</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>59-61</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>62-64</td>
+						<td>6</td>
+					</tr>
+				</table>
+				<p>median dari distribusi frekuensi di atas adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group7" value="a" id="7a">A. 52.5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group7" value="b" id="7b">B. 54.5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group7" value="c" id="7c">C. 55.25</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group7" value="d" id="7d">D. 55.5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group7" value="e" id="7e">E. 56.5</label>          
+                </div>
+            </div>
+            
+			<!-- nomor 8-->  
+            <div id="soal8" class="soal">
+                <p>8. Data tinggi badan siswa kelas XII teknik mesin SMK Tunas Bangsa disajikan dalam tabel berikut.</p>
+				<table class="table">
+					<tr>
+						<td>Tinggi</td>
+						<td>frekuensi</td>
+					</tr>
+					<tr>
+						<td>141-145</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>146-150</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>151-155</td>
+						<td>13</td>
+					</tr>
+					<tr>
+						<td>156-160</td>
+						<td>13</td>
+					</tr>
+					<tr>
+						<td>161-165</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>166-170</td>
+						<td>6</td>
+					</tr>
+					<tr>
+						<td>171-175</td>
+						<td>3</td>
+					</tr>
+				</table>
+				<p>Modus dari data pada distribusi frekuensi di atas adalah ....</p>
+                <div class="radio">
+                <label><input type="radio" name="group8" value="a" id="8a">A. 154.25</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group8" value="b" id="8b">B. 155.25</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group8" value="c" id="8c">C. 156.75</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group8" value="d" id="8d">D. 157.17</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group8" value="e" id="8e">E. 157.75</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 9-->  
+            <div id="soal9" class="soal">
+                <p>9. Median dari data dibawah ini adalah ....</p>
+				<table class="table">
+					<tr>
+						<td>Nilai</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>2</td>
+					</tr>
+				</table>
+				
+                <div class="radio">
+                <label><input type="radio" name="group9" value="a" id="9a">A. 4</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group9" value="b" id="9b">B. 5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group9" value="c" id="9c">C. 6</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group9" value="d" id="9d">D. 7</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group9" value="e" id="9e">E. 8</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 10-->  
+            <div id="soal10" class="soal">
+				<p>10. Jika nilai rata-ratanya 7,7 maka nilai P adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Nilai</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>6</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>p</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>8</td>
+					</tr>
+				</table>
+                		
+                <div class="radio">
+                <label><input type="radio" name="group10" value="a" id="10a">A. 2</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group10" value="b" id="10b">B. 3</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group10" value="c" id="10c">C. 4</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group10" value="d" id="10d">D. 5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group10" value="e" id="10e">E. 6</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 11-->  
+            <div id="soal11" class="soal">
+				<p>11. Nilai kuartil ketiga dari data diatas adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Nilai</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>10</td>
+					</tr>
+				</table>
+                		
+                <div class="radio">
+                <label><input type="radio" name="group11" value="a" id="11a">A. 6.5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group11" value="b" id="11b">B. 7.0</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group11" value="c" id="11c">C. 7.5</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group11" value="d" id="11d">D. 8.0</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group11" value="e" id="11e">E. 8.5</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 13-->  
+            <div id="soal13" class="soal">
+				<p>13. Nilai Persentil 90 dari data di bawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>41-50</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>51-60</td>
+						<td>6</td>
+					</tr>
+					<tr>
+						<td>61-70</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>71-80</td>
+						<td>9</td>
+					</tr>
+					<tr>
+						<td>81-90</td>
+						<td>7</td>
+					</tr>
+				</table>
+                		
+                <div class="radio">
+                <label><input type="radio" name="group13" value="a" id="13a">A. 84.48</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group13" value="b" id="13b">B. 84.58</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group13" value="c" id="13c">C. 84.68</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group13" value="d" id="13d">D. 84.78</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group13" value="e" id="13e">E. 84.88</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 14-->  
+            <div id="soal14" class="soal">
+				<p>14. Nilai desil ke-2 dari data dibawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>16</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>18</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>6</td>
+					</tr>
+				</table>
+                		
+                <div class="radio">
+                <label><input type="radio" name="group14" value="a" id="14a">A. 3</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group14" value="b" id="14b">B. 4</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group14" value="c" id="14c">C. 5</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group14" value="d" id="14d">D. 6</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group14" value="e" id="14e">E. 7</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 15-->  
+            <div id="soal15" class="soal">
+				<p>15. Kuartil bawah, kuartil tengah, dan kuartil atas dari data 5, 4, 5, 6, 8, 7 adalah ....</p>	
+				                		
+                <div class="radio">
+                <label><input type="radio" name="group15" value="a" id="15a">A. 5;5;7</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group15" value="b" id="15b">B. 5.5;5;7</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group15" value="c" id="15c">C. 5;5.5;7</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group15" value="d" id="15d">D. 7;5.5;6</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group15" value="e" id="15e">E. 7;5;5.5</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 16-->  
+            <div id="soal16" class="soal">
+				<p>16. Kuartil bawah dari data di bawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>20-22</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>23-25</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>26-28</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>29-31</td>
+						<td>9</td>
+					</tr>
+					<tr>
+						<td>32-34</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>35-37</td>
+						<td>3</td>
+					</tr>
+				</table>                		
+                <div class="radio">
+                <label><input type="radio" name="group16" value="a" id="16a">A. 23.4</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group16" value="b" id="16b">B. 24.0</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group16" value="c" id="16c">C. 24.3</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group16" value="d" id="16d">D. 24.6</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group16" value="e" id="16e">E. 25</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 17-->  
+            <div id="soal17" class="soal">
+				<p>17. Kuartil atas dari data di bawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>112</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>16</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>4</td>
+					</tr>
+				</table>                		
+                <div class="radio">
+                <label><input type="radio" name="group17" value="a" id="17a">A. 5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group17" value="b" id="17b">B. 6</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group17" value="c" id="17c">C. 7</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group17" value="d" id="17d">D. 8</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group17" value="e" id="17e">E. 9</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 18-->  
+            <div id="soal18" class="soal">
+				<p>18. Kuartil tengah dari data di bawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>112</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>16</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>4</td>
+					</tr>
+				</table>                		
+                <div class="radio">
+                <label><input type="radio" name="group18" value="a" id="18a">A. 5</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group18" value="b" id="18b">B. 6</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group18" value="c" id="18c">C. 7</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group18" value="d" id="18d">D. 8</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group18" value="e" id="18e">E. 9</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 19-->  
+            <div id="soal19" class="soal">
+				<p>19. Kuartil bawah dari data di bawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>112</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>16</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>4</td>
+					</tr>
+				</table>                		
+                <div class="radio">
+                <label><input type="radio" name="group19" value="a" id="19a">A. 6</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group19" value="b" id="19b">B. 6.25</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group19" value="c" id="19c">C. 6.50</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group19" value="d" id="19d">D. 6.75</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group19" value="e" id="19e">E. 7</label>          
+                </div>
+            </div>
+			
+			<!-- nomor 20-->  
+            <div id="soal20" class="soal">
+				<p>20. Desil ke-5 dari data di bawah ini adalah ....</p>	
+				<table class="table">
+					<tr>
+						<td>Data</td>
+						<td>Frekuensi</td>
+					</tr>
+					<tr>
+						<td>55-57</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>58-60</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>61-63</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td>64-66</td>
+						<td>13</td>
+					</tr>
+					<tr>
+						<td>67-69</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>70-72</td>
+						<td>2</td>
+					</tr>
+				</table>                		
+                <div class="radio">
+                <label><input type="radio" name="group20" value="a" id="20a">A. 62</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group20" value="b" id="20b">B. 63.2</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group20" value="c" id="20c">C. 63.5</label> 
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group20" value="d" id="20d">D. 7</label>
+                </div>
+                <div class="radio">
+                <label><input type="radio" name="group20" value="e" id="20e">E. 7.25</label>          
+                </div>
+            </div>
+			
+            <dir class="tombol-koreksi">
+                <a href="#" onclick="koreksi()" class="btn btn-primary">Koreksi</a>   
+                <a href="#" onclick="ulang()" class="btn btn-default">Ulangi</a>
+            </dir>
+            
+            </form>
+        </div>
+
+        <div></div>
+    
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-13">
+                    <p>Copyright &copy; Muhammad Muzacky 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+    <!-- Modal Skor -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Skor Latihan Soal Mean</h4>
+            </div>
+            <div class="modal-body">
+              <p>Selamat Anda berhasil mendapatkan nilai: <h3><div id="myskor"></div></h3></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Ulangi -->
+    <script type="text/javascript">
+        function ulang(){
+            location.reload();
+        }
+    </script>
+
+    <!-- Koreksi -->
+    <script type="text/javascript">
+        
+        //warna hasil koreksi
+        var soalbenar = "#ccff90";
+        var soalsalah = "#ff80ab";
+        
+        //disable radiogroup
+        function dis1(){
+            document.getElementById('1a').disabled = true;
+            document.getElementById('1b').disabled = true;
+            document.getElementById('1c').disabled = true;
+            document.getElementById('1d').disabled = true;
+            document.getElementById('1e').disabled = true;
+        }        
+
+        function dis2(){
+            document.getElementById('2a').disabled = true;
+            document.getElementById('2b').disabled = true;
+            document.getElementById('2c').disabled = true;
+            document.getElementById('2d').disabled = true;
+            document.getElementById('2e').disabled = true;
+        }
+
+        function dis3(){
+            document.getElementById('3a').disabled = true;
+            document.getElementById('3b').disabled = true;
+            document.getElementById('3c').disabled = true;
+            document.getElementById('3d').disabled = true;
+            document.getElementById('3e').disabled = true;
+        }
+
+        function dis4(){
+            document.getElementById('4a').disabled = true;
+            document.getElementById('4b').disabled = true;
+            document.getElementById('4c').disabled = true;
+            document.getElementById('4d').disabled = true;
+            document.getElementById('4e').disabled = true;
+        }
+
+        function dis5(){
+            document.getElementById('5a').disabled = true;
+            document.getElementById('5b').disabled = true;
+            document.getElementById('5c').disabled = true;
+            document.getElementById('5d').disabled = true;
+            document.getElementById('5e').disabled = true;
+        }
+		
+		function dis6(){
+            document.getElementById('6a').disabled = true;
+            document.getElementById('6b').disabled = true;
+            document.getElementById('6c').disabled = true;
+            document.getElementById('6d').disabled = true;
+            document.getElementById('6e').disabled = true;
+        }
+		
+		function dis7(){
+            document.getElementById('7a').disabled = true;
+            document.getElementById('7b').disabled = true;
+            document.getElementById('7c').disabled = true;
+            document.getElementById('7d').disabled = true;
+            document.getElementById('7e').disabled = true;
+        }
+		
+		function dis8(){
+            document.getElementById('8a').disabled = true;
+            document.getElementById('8b').disabled = true;
+            document.getElementById('8c').disabled = true;
+            document.getElementById('8d').disabled = true;
+            document.getElementById('8e').disabled = true;
+        }
+		
+		function dis9(){
+            document.getElementById('9a').disabled = true;
+            document.getElementById('9b').disabled = true;
+            document.getElementById('9c').disabled = true;
+            document.getElementById('9d').disabled = true;
+            document.getElementById('9e').disabled = true;
+        }
+		
+		function dis10(){
+            document.getElementById('10a').disabled = true;
+            document.getElementById('10b').disabled = true;
+            document.getElementById('10c').disabled = true;
+            document.getElementById('10d').disabled = true;
+            document.getElementById('10e').disabled = true;
+        }
+		
+		function dis11(){
+            document.getElementById('11a').disabled = true;
+            document.getElementById('11b').disabled = true;
+            document.getElementById('11c').disabled = true;
+            document.getElementById('11d').disabled = true;
+            document.getElementById('11e').disabled = true;
+        }
+		
+		function dis13(){
+            document.getElementById('13a').disabled = true;
+            document.getElementById('13b').disabled = true;
+            document.getElementById('13c').disabled = true;
+            document.getElementById('13d').disabled = true;
+            document.getElementById('13e').disabled = true;
+        }
+		
+		function dis14(){
+            document.getElementById('14a').disabled = true;
+            document.getElementById('14b').disabled = true;
+            document.getElementById('14c').disabled = true;
+            document.getElementById('14d').disabled = true;
+            document.getElementById('14e').disabled = true;
+        }
+		
+		function dis15(){
+            document.getElementById('15a').disabled = true;
+            document.getElementById('15b').disabled = true;
+            document.getElementById('15c').disabled = true;
+            document.getElementById('15d').disabled = true;
+            document.getElementById('15e').disabled = true;
+        }
+		
+		function dis16(){
+            document.getElementById('16a').disabled = true;
+            document.getElementById('16b').disabled = true;
+            document.getElementById('16c').disabled = true;
+            document.getElementById('16d').disabled = true;
+            document.getElementById('16e').disabled = true;
+        }
+		
+		function dis17(){
+            document.getElementById('17a').disabled = true;
+            document.getElementById('17b').disabled = true;
+            document.getElementById('17c').disabled = true;
+            document.getElementById('17d').disabled = true;
+            document.getElementById('17e').disabled = true;
+        }
+
+		function dis18(){
+            document.getElementById('18a').disabled = true;
+            document.getElementById('18b').disabled = true;
+            document.getElementById('18c').disabled = true;
+            document.getElementById('18d').disabled = true;
+            document.getElementById('18e').disabled = true;
+        }
+		
+		function dis19(){
+            document.getElementById('19a').disabled = true;
+            document.getElementById('19b').disabled = true;
+            document.getElementById('19c').disabled = true;
+            document.getElementById('19d').disabled = true;
+            document.getElementById('19e').disabled = true;
+        }
+		
+		function dis20(){
+            document.getElementById('20a').disabled = true;
+            document.getElementById('20b').disabled = true;
+            document.getElementById('20c').disabled = true;
+            document.getElementById('20d').disabled = true;
+            document.getElementById('20e').disabled = true;
+        }
+		
+        function koreksi(){
+        // cetak nilai       
+        skor = 0;
+        
+
+        //nomor 1
+        var group1 = document.querySelector('[name="group1"]:checked').value;
+        switch(group1){     
+        case "a" : 
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "b" :
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "c" :
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "d" :
+            document.getElementById('soal1').style.backgroundColor = soalsalah; dis1();
+            break;
+        case "e" :
+            document.getElementById('soal1').style.backgroundColor = soalbenar; skor = skor + 1; dis1();
+            break;
+            }
+
+        //nomor 2
+        var group2 = document.querySelector('[name="group2"]:checked').value;
+        switch(group2){     
+        case "a" : 
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+        case "b" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+        case "c" :
+            document.getElementById('soal2').style.backgroundColor = soalbenar; skor = skor + 1; dis2();
+            break;
+        case "d" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+        case "e" :
+            document.getElementById('soal2').style.backgroundColor = soalsalah; dis2();
+            break;
+            }
+
+        //nomor 3
+        var group3 = document.querySelector('[name="group3"]:checked').value;
+        switch(group3){     
+        case "a" : 
+            document.getElementById('soal3').style.backgroundColor = soalbenar; skor = skor + 1; dis3();
+            break;
+        case "b" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+        case "c" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+        case "d" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+        case "e" :
+            document.getElementById('soal3').style.backgroundColor = soalsalah; dis3();
+            break;
+            }
+
+        //nomor 4
+        var group4 = document.querySelector('[name="group4"]:checked').value;
+        switch(group4){     
+        case "a" : 
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+        case "b" :
+            document.getElementById('soal4').style.backgroundColor = soalbenar; skor = skor + 1; dis4();
+            break;
+        case "c" :
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+        case "d" :
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+        case "e" :
+            document.getElementById('soal4').style.backgroundColor = soalsalah; dis4();
+            break;
+            }
+
+        //nomor 5
+        var group5 = document.querySelector('[name="group5"]:checked').value;
+        switch(group5){     
+        case "a" : 
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+        case "b" :
+            document.getElementById('soal5').style.backgroundColor = soalbenar; skor = skor + 1; dis5();
+            break;
+        case "c" :
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+        case "d" :
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+        case "e" :
+            document.getElementById('soal5').style.backgroundColor = soalsalah; dis5();
+            break;
+            }
+			
+		//nomor 6
+        var group6 = document.querySelector('[name="group6"]:checked').value;
+        switch(group6){     
+        case "a" : 
+            document.getElementById('soal6').style.backgroundColor = soalsalah; dis6();
+            break;
+        case "b" :
+            document.getElementById('soal6').style.backgroundColor = soalsalah; dis6();
+            break;
+        case "c" :
+            document.getElementById('soal6').style.backgroundColor = soalbenar; skor = skor + 1; dis6();
+            break;
+        case "d" :
+            document.getElementById('soal6').style.backgroundColor = soalsalah; dis6();
+            break;
+        case "e" :
+            document.getElementById('soal6').style.backgroundColor = soalsalah; dis6();
+            break;
+            }
+        
+		//nomor 7
+        var group7 = document.querySelector('[name="group7"]:checked').value;
+        switch(group7){     
+        case "a" : 
+            document.getElementById('soal7').style.backgroundColor = soalsalah; dis7();
+            break;
+        case "b" :
+            document.getElementById('soal7').style.backgroundColor = soalsalah; dis7();
+            break;
+        case "c" :
+            document.getElementById('soal7').style.backgroundColor = soalsalah; dis7();
+            break;
+        case "d" :
+            document.getElementById('soal7').style.backgroundColor = soalsalah; dis7();
+            break;
+        case "e" :
+            document.getElementById('soal7').style.backgroundColor = soalbenar; skor = skor + 1; dis7();
+            break;
+            }
+		
+		//nomor 8
+        var group8 = document.querySelector('[name="group8"]:checked').value;
+        switch(group8){     
+        case "a" : 
+            document.getElementById('soal8').style.backgroundColor = soalsalah; dis8();
+            break;
+        case "b" :
+            document.getElementById('soal8').style.backgroundColor = soalsalah; dis8();
+            break;
+        case "c" :
+            document.getElementById('soal8').style.backgroundColor = soalbenar; skor = skor + 1; dis8();
+            break;
+        case "d" :
+            document.getElementById('soal8').style.backgroundColor = soalsalah; dis8();
+            break;
+        case "e" :
+            document.getElementById('soal8').style.backgroundColor = soalsalah; dis8();
+            break;
+            }
+		
+		//nomor 9
+        var group9 = document.querySelector('[name="group9"]:checked').value;
+        switch(group9){     
+        case "a" : 
+            document.getElementById('soal9').style.backgroundColor = soalsalah; dis9();
+            break;
+        case "b" :
+            document.getElementById('soal9').style.backgroundColor = soalsalah; dis9();
+            break;
+        case "c" :
+            document.getElementById('soal9').style.backgroundColor = soalbenar; skor = skor + 1; dis9();
+            break;
+        case "d" :
+            document.getElementById('soal9').style.backgroundColor = soalsalah; dis9();
+            break;
+        case "e" :
+            document.getElementById('soal9').style.backgroundColor = soalsalah; dis9();
+            break;
+            }
+		
+		//nomor 10
+        var group10 = document.querySelector('[name="group10"]:checked').value;
+        switch(group10){     
+        case "a" : 
+            document.getElementById('soal10').style.backgroundColor = soalsalah; dis10();
+            break;
+        case "b" :
+            document.getElementById('soal10').style.backgroundColor = soalbenar; skor = skor + 1; dis10();
+            break;
+        case "c" :
+            document.getElementById('soal10').style.backgroundColor = soalsalah; dis10();
+            break;
+        case "d" :
+            document.getElementById('soal10').style.backgroundColor = soalsalah; dis10();
+            break;
+        case "e" :
+            document.getElementById('soal10').style.backgroundColor = soalsalah; dis10();
+            break;
+            }
+		
+		//nomor 11
+        var group11 = document.querySelector('[name="group11"]:checked').value;
+        switch(group11){     
+        case "a" : 
+            document.getElementById('soal11').style.backgroundColor = soalsalah; dis11();
+            break;
+        case "b" :
+            document.getElementById('soal11').style.backgroundColor = soalsalah; dis11();
+            break;
+        case "c" :
+            document.getElementById('soal11').style.backgroundColor = soalsalah; dis11();
+            break;
+        case "d" :
+            document.getElementById('soal11').style.backgroundColor = soalsalah; dis11();
+            break;
+        case "e" :
+            document.getElementById('soal11').style.backgroundColor = soalbenar; skor = skor + 1; dis11();
+            break;
+            }
+		
+		//nomor 13
+        var group13 = document.querySelector('[name="group13"]:checked').value;
+        switch(group13){     
+        case "a" : 
+            document.getElementById('soal13').style.backgroundColor = soalsalah; dis13();
+            break;
+        case "b" :
+            document.getElementById('soal13').style.backgroundColor = soalsalah; dis13();
+            break;
+        case "c" :
+            document.getElementById('soal13').style.backgroundColor = soalsalah; dis13();
+            break;
+        case "d" :
+            document.getElementById('soal13').style.backgroundColor = soalbenar; skor = skor + 1; dis13();
+            break;
+        case "e" :
+            document.getElementById('soal13').style.backgroundColor = soalsalah; dis13();
+            break;
+            }
+		
+		//nomor 14
+        var group14 = document.querySelector('[name="group14"]:checked').value;
+        switch(group14){     
+        case "a" : 
+            document.getElementById('soal14').style.backgroundColor = soalsalah; dis14();
+            break;
+        case "b" :
+            document.getElementById('soal14').style.backgroundColor = soalbenar; skor = skor + 1; dis14();
+            break;
+        case "c" :
+            document.getElementById('soal14').style.backgroundColor = soalsalah; dis14();
+            break;
+        case "d" :
+            document.getElementById('soal14').style.backgroundColor = soalsalah; dis14();
+            break;
+        case "e" :
+            document.getElementById('soal14').style.backgroundColor = soalsalah; dis14();
+            break;
+            }
+		
+		//nomor 15
+        var group15 = document.querySelector('[name="group15"]:checked').value;
+        switch(group15){     
+        case "a" : 
+            document.getElementById('soal15').style.backgroundColor = soalsalah; dis15();
+            break;
+        case "b" :
+            document.getElementById('soal15').style.backgroundColor = soalsalah; dis15();
+            break;
+        case "c" :
+            document.getElementById('soal15').style.backgroundColor = soalbenar; skor = skor + 1; dis15();
+            break;
+        case "d" :
+            document.getElementById('soal15').style.backgroundColor = soalsalah; dis15();
+            break;
+        case "e" :
+            document.getElementById('soal15').style.backgroundColor = soalsalah; dis15();
+            break;
+            }
+		
+		//nomor 16
+        var group16 = document.querySelector('[name="group16"]:checked').value;
+        switch(group16){     
+        case "a" : 
+            document.getElementById('soal16').style.backgroundColor = soalbenar; skor = skor + 1; dis16();
+            break;
+        case "b" :
+            document.getElementById('soal16').style.backgroundColor = soalsalah; dis16();
+            break;
+        case "c" :
+            document.getElementById('soal16').style.backgroundColor = soalsalah; dis16();
+            break;
+        case "d" :
+            document.getElementById('soal16').style.backgroundColor = soalsalah; dis16();
+            break;
+        case "e" :
+            document.getElementById('soal16').style.backgroundColor = soalsalah; dis16();
+            break;
+            }
+		
+		//nomor 17
+        var group17 = document.querySelector('[name="group17"]:checked').value;
+        switch(group17){     
+        case "a" : 
+            document.getElementById('soal17').style.backgroundColor = soalbenar; skor = skor + 1; dis17();
+            break;
+        case "b" :
+            document.getElementById('soal17').style.backgroundColor = soalsalah; dis17();
+            break;
+        case "c" :
+            document.getElementById('soal17').style.backgroundColor = soalsalah; dis17();
+            break;
+        case "d" :
+            document.getElementById('soal17').style.backgroundColor = soalsalah; dis17();
+            break;
+        case "e" :
+            document.getElementById('soal17').style.backgroundColor = soalsalah; dis17();
+            break;
+            }
+		
+		//nomor 18
+        var group18 = document.querySelector('[name="group18"]:checked').value;
+        switch(group18){     
+        case "a" : 
+            document.getElementById('soal18').style.backgroundColor = soalsalah; dis18();
+            break;
+        case "b" :
+            document.getElementById('soal18').style.backgroundColor = soalbenar; skor = skor + 1; dis18();
+            break;
+        case "c" :
+            document.getElementById('soal18').style.backgroundColor = soalsalah; dis18();
+            break;
+        case "d" :
+            document.getElementById('soal18').style.backgroundColor = soalsalah; dis18();
+            break;
+        case "e" :
+            document.getElementById('soal18').style.backgroundColor = soalsalah; dis18();
+            break;
+            }
+		
+		//nomor 19
+        var group19 = document.querySelector('[name="group19"]:checked').value;
+        switch(group19){     
+        case "a" : 
+            document.getElementById('soal19').style.backgroundColor = soalsalah; dis19();
+            break;
+        case "b" :
+            document.getElementById('soal19').style.backgroundColor = soalbenar; skor = skor + 1; dis19();
+            break;
+        case "c" :
+            document.getElementById('soal19').style.backgroundColor = soalsalah; dis19();
+            break;
+        case "d" :
+            document.getElementById('soal19').style.backgroundColor = soalsalah; dis19();
+            break;
+        case "e" :
+            document.getElementById('soal19').style.backgroundColor = soalsalah; dis19();
+            break;
+            }
+		
+		//nomor 20
+        var group20 = document.querySelector('[name="group20"]:checked').value;
+        switch(group20){     
+        case "a" : 
+            document.getElementById('soal20').style.backgroundColor = soalsalah; dis20();
+            break;
+        case "b" :
+            document.getElementById('soal20').style.backgroundColor = soalsalah; dis20();
+            break;
+        case "c" :
+            document.getElementById('soal20').style.backgroundColor = soalbenar; skor = skor + 1; dis20();
+            break;
+        case "d" :
+            document.getElementById('soal20').style.backgroundColor = soalsalah; dis20();
+            break;
+        case "e" :
+            document.getElementById('soal20').style.backgroundColor = soalsalah; dis20();
+            break;
+            }
+		
+        var skortot = (skor/20)*100;
+        var myskor = document.getElementById('myskor').innerHTML = Math.round(skortot);
+        $("#myModal").modal();
+        }
+    </script>
+
+</body>
+
+</html>
+
+
