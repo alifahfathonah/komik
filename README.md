@@ -1,1 +1,1 @@
-Aplikasi komik matematika materi Statistika untuk SMK kelas XII
+Aplikasi komik matematika materi Statistika untuk SMK kelas XI
