@@ -134,8 +134,8 @@
                 <div class="thumbnail">
                     <img src="img/cover/apersepsi.png" alt="">
                     <div class="caption">
-                        <h3>Apersepsi</h3>
-                        <p>Sebelum membaca lebih jauh, lebih baik kamu membaca pengenalan materi ini.</p>
+                        <h3>Latar Cerita</h3>
+                        <p>Sebelum membaca lebih jauh, lebih baik kamu membaca pengenalan cerita berikut ini.</p>
                         <p>
                             <a href="pages/apersepsi.html" class="btn btn-primary">Baca</a>
                         </p>
@@ -272,6 +272,15 @@
     <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+
+            if (navigator.userAgent.match("Android"))
+            {
+                document.addEventListener("backbutton", onBackKeyDown, true);
+            }
+            function onBackKeyDown(e) 
+            {navigator.app.exitApp();}
         </script>
 
 </body>
